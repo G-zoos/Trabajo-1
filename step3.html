@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device=width" initial-scale="1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title >Formulario</title>
+        <nav>
+            <a href="../Index/content.html">Página principal</a>
+            <a href="paso2.html">Tablas</a>
+            <a href="step3.html">Formatos</a>
+            </nav>
+        <hr>
+        <body style="background-color: rgb(189, 222, 135)">
+            <h1 style="color:firebrick">Tercera sección</h1>
+            <h2 style="color:deeppink">Formulario</span></h2>
+    </head>
+    <form>
+        <label for="name">Nombre<br>
+            <input type="text" name="name" placeholder="ingrese nombre"><br>
+        </label>
+        <label for="lastname">Apellidos<br>
+            <input type="text" name="lastname" placeholder="ingrese apellidos">
+        </label> <br>   
+        <label for="gender">Género<br>
+            <input type="radio" name= "gender" value="Hombre"> Hombre
+            <input type="radio" name= "gender" value="Mujer"> Mujer
+            <input type="radio" name= "gender" value="Otro"> Otro 
+        </label> <br>  
+        <select name="ciudad"><br>
+            <option value="value">Selecciona una ciudad</option>
+            <option value="CDMX">CDMX</option>
+            <option value="Mazatlán">Mazatlán</option>
+            <option value="Morelia">Morelia</option>
+        </select><br>
+        <label  for="direction"> Dirección <br>
+            <textarea name="dirección" placeholder="Ingresa tu dirección">
+        </textarea><br>
+        </label>
+        <input type="submit" value="Enviar">
+    </form>    
